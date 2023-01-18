@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>calibration_common</name>
+  <version>1.0.0</version>
+  <description>
+    The calibration_common package
+  </description>
+  <maintainer email="bassofil@gmail.com">Filippo Basso</maintainer>
+  <license>BSD</license>
+  <!-- <url type="website">http://wiki.ros.org/calibration_common</url> -->
+  <!-- <author email="bassofil@gmail.com">Filippo Basso</author> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>cmake_modules</depend>
+  <depend>image_geometry</depend>
+
+  <build_export_depend>eigen</build_export_depend>
+
+  <export>
+  </export>
+
+</package>
